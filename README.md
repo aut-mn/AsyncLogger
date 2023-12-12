@@ -1,5 +1,5 @@
-# AsyncLogCollector
-AsyncLogCollector is an asynchronous Python logging utility that facilitates efficient logging with both file saving and console output. It is designed to be used in asynchronous applications where traditional synchronous logging might introduce performance bottlenecks.
+# AsyncLogger
+AsyncLogger is an asynchronous Python logging utility that facilitates efficient logging with both file saving and console output. It is designed to be used in asynchronous applications where traditional synchronous logging might introduce performance bottlenecks.
 <img src="https://github.com/autumnfied/AsyncLogger/blob/main/Example.png">
 ## Features
 - Asynchronous logging for improved performance in async applications.
@@ -7,6 +7,7 @@ AsyncLogCollector is an asynchronous Python logging utility that facilitates eff
 - Simple usage with a straightforward API.
 
 ## Usage
+Download main.py, rename it if needed, and import it into your working directory.
 Import the AsyncLogCollector class:
 ```python3
 from AsyncLogger import AsyncLogCollector
