@@ -13,9 +13,9 @@ Import the AsyncLogCollector class:
 from AsyncLogger import AsyncLogCollector
 ```
 
-Initialize an instance of AsyncLogCollector:
+Initialize an instance of AsyncLogCollector and specify the output path & filename:
 ```python3
-log_collector = AsyncLogCollector()
+log_collector = AsyncLogCollector("log.txt")
 ```
 
 Use the logging methods to record messages. Example:
@@ -29,7 +29,7 @@ Example usage of the logger:
 ```python3
 from AsyncLogger import AsyncLogCollector
 async def main():
-    log_collector = AsyncLogCollector() # Initialize the log collector
+    log_collector = AsyncLogCollector("log.txt") # Initialize the log collector & specify output
     await log_collector.info("It worked!") # Send to the AsyncLogger an info log
 
 if __name__ == "__main__":
