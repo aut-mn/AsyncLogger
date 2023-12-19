@@ -36,9 +36,3 @@ if __name__ == "__main__":
     import asyncio
     asyncio.run(main())
 ```
-
-## Future plans for AsyncLogger
-- Implement custom logging paths & names
-- Exception and debug options
-- Better invalid syntax handling
-- Availability on the pip library
