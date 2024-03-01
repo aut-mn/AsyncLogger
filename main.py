@@ -19,5 +19,4 @@ class AsyncLogCollector:
     async def error(self, message): await self.log('ERROR', message)
     async def fatal(self, message): await self.log('FATAL', message)
     def get_colored_timestamp(self): return '\033[90m' + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '\033[0m'
-    @staticmethod
     def get_timestamp(self): return datetime.now().strftime('%Y-%m-%d %H:%M:%S')
